@@ -4,7 +4,9 @@ Takes input geojson file of polygons, calculates the minimum bounding rectangle
 of each polygon and saves the rectangle as individual geojson. It supports multiple 
 polygons per file and will descriminate from other shape types. Files that span the 
 anti-meridian in which some of the longitude is negative will lead to weird
-behavior in most geojson viewers.     
+behavior in most geojson viewers.  
+  
+In the directory example_geojsons are a handful of geojsons to use as examples.
 
 ## Inputs
 Input file is required and is the first argument  
