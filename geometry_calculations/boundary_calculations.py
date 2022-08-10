@@ -1,7 +1,4 @@
-def minimum_bounding_rectangle(
-        lon: (list, "list of floats"),
-         lat: (list, "list of floats"),
-       ):
+def minimum_bounding_rectangle(lon, lat):
     """
     Calculates the minimum bounding polygon from arbitraty polygon
     Arguments:
